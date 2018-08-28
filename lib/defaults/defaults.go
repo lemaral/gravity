@@ -489,9 +489,11 @@ const (
 	GrafanaServiceName = "grafana"
 	// GrafanaServicePort is the port Grafana service is listening on
 	GrafanaServicePort = 3000
+	// GrafanaServiceNamespace is the kubernetes namespace where grafana is working
+	GrafanaServiceNamespace = "monitoring"
 
 	// InfluxDBServiceAddr is the address of InfluxDB service
-	InfluxDBServiceAddr = "influxdb.kube-system.svc.cluster.local"
+	InfluxDBServiceAddr = "influxdb.monitoring.svc.cluster.local"
 	// InfluxDBServicePort is the API port of InfluxDB service
 	InfluxDBServicePort = 8086
 	// InfluxDBAdminUser is the InfluxDB admin user name
