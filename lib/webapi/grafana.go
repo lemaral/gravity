@@ -73,7 +73,7 @@ func (h *WebHandler) grafanaServeHandler(w http.ResponseWriter, r *http.Request,
 		ClusterName:      site.Domain,
 		ServiceName:      defaults.GrafanaServiceName,
 		ServicePort:      defaults.GrafanaServicePort,
-		ServiceNamespace: defaults.GrafanaServiceNamespace,
+		ServiceNamespace: defaults.MonitoringNamespace,
 		URL:              p.ByName("rest"),
 	})
 
