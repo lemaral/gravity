@@ -542,6 +542,8 @@ const (
 
 	// KubeSystemNamespace is the name of k8s namespace where all our system stuff goes
 	KubeSystemNamespace = "kube-system"
+	// MonitoringNamespace is the name of k8s namespace where all our monitoring stuff goes
+	MonitoringNamespace = "monitoring"
 
 	// SystemServiceWantedBy sets default target for system services installed by gravity
 	SystemServiceWantedBy = "multi-user.target"
